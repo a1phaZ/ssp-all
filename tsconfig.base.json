@@ -16,14 +16,18 @@
     "baseUrl": ".",
     "paths": {
       "@ssp-ui/core-components": ["dist/packages/core-components"],
-      "@ssp-ui/core-components/types": ["dist/packages/core-components/dist/types/components"],
       "@ssp-ui/core-components-angular": [
         "packages/core-components-angular/src/index.ts"
       ],
       "@ssp-ui/core-components/*": [
         "dist/packages/core-components/dist/components/*"
       ],
-      "@ssp-ui/core-components/loader": ["dist/packages/core-components/loader"]
+      "@ssp-ui/core-components/loader": [
+        "dist/packages/core-components/loader"
+      ],
+      "@ssp-ui/core-components/types": [
+        "dist/packages/core-components/dist/types/components"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]

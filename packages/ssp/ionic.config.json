@@ -1,0 +1,7 @@
+{
+  "name": "ssp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
